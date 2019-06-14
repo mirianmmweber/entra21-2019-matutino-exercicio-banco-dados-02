@@ -1,0 +1,10 @@
+C:\Users\germa\Documents\GitHub\entra21-2019-matutino-exercicio-banco-dados-02\Exercicio02Colaboradores\bin\Debug\Exercicio02Colaboradores.exe.config
+C:\Users\germa\Documents\GitHub\entra21-2019-matutino-exercicio-banco-dados-02\Exercicio02Colaboradores\bin\Debug\Exercicio02Colaboradores.exe
+C:\Users\germa\Documents\GitHub\entra21-2019-matutino-exercicio-banco-dados-02\Exercicio02Colaboradores\bin\Debug\Exercicio02Colaboradores.pdb
+C:\Users\germa\Documents\GitHub\entra21-2019-matutino-exercicio-banco-dados-02\Exercicio02Colaboradores\obj\Debug\Exercicio02Colaboradores.csprojAssemblyReference.cache
+C:\Users\germa\Documents\GitHub\entra21-2019-matutino-exercicio-banco-dados-02\Exercicio02Colaboradores\obj\Debug\Exercicio02Colaboradores.Form1.resources
+C:\Users\germa\Documents\GitHub\entra21-2019-matutino-exercicio-banco-dados-02\Exercicio02Colaboradores\obj\Debug\Exercicio02Colaboradores.Properties.Resources.resources
+C:\Users\germa\Documents\GitHub\entra21-2019-matutino-exercicio-banco-dados-02\Exercicio02Colaboradores\obj\Debug\Exercicio02Colaboradores.csproj.GenerateResource.cache
+C:\Users\germa\Documents\GitHub\entra21-2019-matutino-exercicio-banco-dados-02\Exercicio02Colaboradores\obj\Debug\Exercicio02Colaboradores.csproj.CoreCompileInputs.cache
+C:\Users\germa\Documents\GitHub\entra21-2019-matutino-exercicio-banco-dados-02\Exercicio02Colaboradores\obj\Debug\Exercicio02Colaboradores.exe
+C:\Users\germa\Documents\GitHub\entra21-2019-matutino-exercicio-banco-dados-02\Exercicio02Colaboradores\obj\Debug\Exercicio02Colaboradores.pdb

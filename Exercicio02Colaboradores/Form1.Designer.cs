@@ -42,9 +42,6 @@
             this.cbSexo = new System.Windows.Forms.ComboBox();
             this.ckbSim = new System.Windows.Forms.CheckBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.btnExcluir = new System.Windows.Forms.Button();
-            this.btnSalvar = new System.Windows.Forms.Button();
-            this.cbCargo = new System.Windows.Forms.ComboBox();
             this.ColumnId = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ColumnnNome = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ColumnCpf = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -52,6 +49,9 @@
             this.ColumnSexo = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ColumnCargo = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ColumnProgramador = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.btnExcluir = new System.Windows.Forms.Button();
+            this.btnSalvar = new System.Windows.Forms.Button();
+            this.txtCargo = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -138,7 +138,7 @@
             // txtNome
             // 
             this.txtNome.Location = new System.Drawing.Point(51, 60);
-            this.txtNome.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtNome.Margin = new System.Windows.Forms.Padding(4);
             this.txtNome.Name = "txtNome";
             this.txtNome.Size = new System.Drawing.Size(230, 26);
             this.txtNome.TabIndex = 8;
@@ -146,7 +146,7 @@
             // mtbCpf
             // 
             this.mtbCpf.Location = new System.Drawing.Point(316, 60);
-            this.mtbCpf.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.mtbCpf.Margin = new System.Windows.Forms.Padding(4);
             this.mtbCpf.Mask = "999.999.999-99";
             this.mtbCpf.Name = "mtbCpf";
             this.mtbCpf.Size = new System.Drawing.Size(230, 26);
@@ -155,10 +155,10 @@
             // mtbSalario
             // 
             this.mtbSalario.Location = new System.Drawing.Point(49, 135);
-            this.mtbSalario.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.mtbSalario.Margin = new System.Windows.Forms.Padding(4);
             this.mtbSalario.Mask = "$999999,99";
             this.mtbSalario.Name = "mtbSalario";
-            this.mtbSalario.Size = new System.Drawing.Size(230, 26);
+            this.mtbSalario.Size = new System.Drawing.Size(232, 26);
             this.mtbSalario.TabIndex = 10;
             // 
             // cbSexo
@@ -171,7 +171,7 @@
             "Homen trans",
             "Não-Binário"});
             this.cbSexo.Location = new System.Drawing.Point(316, 135);
-            this.cbSexo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cbSexo.Margin = new System.Windows.Forms.Padding(4);
             this.cbSexo.Name = "cbSexo";
             this.cbSexo.Size = new System.Drawing.Size(230, 26);
             this.cbSexo.TabIndex = 11;
@@ -180,7 +180,7 @@
             // 
             this.ckbSim.AutoSize = true;
             this.ckbSim.Location = new System.Drawing.Point(316, 222);
-            this.ckbSim.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ckbSim.Margin = new System.Windows.Forms.Padding(4);
             this.ckbSim.Name = "ckbSim";
             this.ckbSim.Size = new System.Drawing.Size(53, 22);
             this.ckbSim.TabIndex = 13;
@@ -201,47 +201,12 @@
             this.ColumnCargo,
             this.ColumnProgramador});
             this.dataGridView1.Location = new System.Drawing.Point(49, 264);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.Size = new System.Drawing.Size(654, 251);
             this.dataGridView1.TabIndex = 15;
-            // 
-            // btnExcluir
-            // 
-            this.btnExcluir.Location = new System.Drawing.Point(592, 212);
-            this.btnExcluir.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.btnExcluir.Name = "btnExcluir";
-            this.btnExcluir.Size = new System.Drawing.Size(112, 32);
-            this.btnExcluir.TabIndex = 16;
-            this.btnExcluir.Text = "Excluir";
-            this.btnExcluir.UseVisualStyleBackColor = true;
-            // 
-            // btnSalvar
-            // 
-            this.btnSalvar.Location = new System.Drawing.Point(592, 165);
-            this.btnSalvar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.btnSalvar.Name = "btnSalvar";
-            this.btnSalvar.Size = new System.Drawing.Size(112, 32);
-            this.btnSalvar.TabIndex = 17;
-            this.btnSalvar.Text = "Salvar";
-            this.btnSalvar.UseVisualStyleBackColor = true;
-            this.btnSalvar.Click += new System.EventHandler(this.btnSalvar_Click);
-            // 
-            // cbCargo
-            // 
-            this.cbCargo.FormattingEnabled = true;
-            this.cbCargo.Items.AddRange(new object[] {
-            "Mulher Cis",
-            "Mulher Trans",
-            "Homens Cis",
-            "Homen trans",
-            "Não-Binário"});
-            this.cbCargo.Location = new System.Drawing.Point(51, 220);
-            this.cbCargo.Margin = new System.Windows.Forms.Padding(4);
-            this.cbCargo.Name = "cbCargo";
-            this.cbCargo.Size = new System.Drawing.Size(230, 26);
-            this.cbCargo.TabIndex = 18;
+            this.dataGridView1.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellDoubleClick);
             // 
             // ColumnId
             // 
@@ -285,12 +250,41 @@
             this.ColumnProgramador.Name = "ColumnProgramador";
             this.ColumnProgramador.ReadOnly = true;
             // 
+            // btnExcluir
+            // 
+            this.btnExcluir.Location = new System.Drawing.Point(592, 212);
+            this.btnExcluir.Margin = new System.Windows.Forms.Padding(4);
+            this.btnExcluir.Name = "btnExcluir";
+            this.btnExcluir.Size = new System.Drawing.Size(112, 32);
+            this.btnExcluir.TabIndex = 16;
+            this.btnExcluir.Text = "Excluir";
+            this.btnExcluir.UseVisualStyleBackColor = true;
+            this.btnExcluir.Click += new System.EventHandler(this.btnExcluir_Click);
+            // 
+            // btnSalvar
+            // 
+            this.btnSalvar.Location = new System.Drawing.Point(592, 165);
+            this.btnSalvar.Margin = new System.Windows.Forms.Padding(4);
+            this.btnSalvar.Name = "btnSalvar";
+            this.btnSalvar.Size = new System.Drawing.Size(112, 32);
+            this.btnSalvar.TabIndex = 17;
+            this.btnSalvar.Text = "Salvar";
+            this.btnSalvar.UseVisualStyleBackColor = true;
+            this.btnSalvar.Click += new System.EventHandler(this.btnSalvar_Click);
+            // 
+            // txtCargo
+            // 
+            this.txtCargo.Location = new System.Drawing.Point(51, 218);
+            this.txtCargo.Name = "txtCargo";
+            this.txtCargo.Size = new System.Drawing.Size(230, 26);
+            this.txtCargo.TabIndex = 18;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(750, 538);
-            this.Controls.Add(this.cbCargo);
+            this.Controls.Add(this.txtCargo);
             this.Controls.Add(this.btnSalvar);
             this.Controls.Add(this.btnExcluir);
             this.Controls.Add(this.dataGridView1);
@@ -308,9 +302,11 @@
             this.Controls.Add(this.lblId);
             this.Controls.Add(this.lblCodigo);
             this.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Activated += new System.EventHandler(this.Form1_Activated);
+            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -342,7 +338,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn ColumnProgramador;
         private System.Windows.Forms.Button btnExcluir;
         private System.Windows.Forms.Button btnSalvar;
-        private System.Windows.Forms.ComboBox cbCargo;
+        private System.Windows.Forms.TextBox txtCargo;
     }
 }
 
