@@ -10,3 +10,5 @@ programador BIT
 );
 
 SELECT * FROM colaboradores;
+
+

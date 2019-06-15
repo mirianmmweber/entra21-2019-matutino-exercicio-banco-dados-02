@@ -156,7 +156,7 @@
             // 
             this.mtbSalario.Location = new System.Drawing.Point(49, 135);
             this.mtbSalario.Margin = new System.Windows.Forms.Padding(4);
-            this.mtbSalario.Mask = "$999999,99";
+            this.mtbSalario.Mask = "$999999.99";
             this.mtbSalario.Name = "mtbSalario";
             this.mtbSalario.Size = new System.Drawing.Size(232, 26);
             this.mtbSalario.TabIndex = 10;
