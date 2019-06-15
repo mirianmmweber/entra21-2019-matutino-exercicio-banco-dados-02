@@ -11,9 +11,9 @@ using System.Windows.Forms;
 
 namespace Exercicio02Colaboradores
 {
-    public partial class Form1 : Form
+    public partial class Colaboradores : Form
     {
-        public Form1()
+        public Colaboradores()
         {
             InitializeComponent();
         }

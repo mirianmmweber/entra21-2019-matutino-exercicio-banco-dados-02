@@ -1,6 +1,6 @@
 ﻿namespace Exercicio02Colaboradores
 {
-    partial class Form1
+    partial class Colaboradores
     {
         /// <summary>
         /// Variável de designer necessária.
